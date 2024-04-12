@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    android:label="Configuracion"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="diego.rodriguez.menudesplegablediego.ui.home.HomeFragment"
+        android:label="label_incio"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="diego.rodriguez.menudesplegablediego.ui.gallery.GalleryFragment"
+        android:label="Informcion"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="diego.rodriguez.menudesplegablediego.ui.slideshow.SlideshowFragment"
+        android:label="Notas"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/fragment_Configuracion"
+        android:name="diego.rodriguez.menudesplegablediego.Fragment_Configuracion"
+        android:label="Codigos"
+        tools:layout="@layout/fragment__configuracion" />
+    <fragment
+        android:id="@+id/fragment_perfil"
+        android:name="diego.rodriguez.menudesplegablediego.fragment_perfil"
+        android:label="Perfil"
+        tools:layout="@layout/fragment_perfil" />
+</navigation>
